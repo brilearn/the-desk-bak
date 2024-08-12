@@ -1,0 +1,81 @@
+{
+  "name": "the-desk",
+  "private": true,
+  "version": "0.0.0",
+  "proxy": "http://localhost:8080",
+  "type": "module",
+  "scripts": {
+    "build": "cross-env DISABLE_ESLINT_PLUGIN=true vite build",
+    "dev": "cross-env DISABLE_ESLINT_PLUGIN=true refine dev",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "refine": "refine",
+    "test": "craco test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.8.3",
+    "@mui/lab": "^5.0.0-alpha.85",
+    "@mui/material": "^5.14.2",
+    "@mui/x-data-grid": "^6.6.0",
+    "@nextui-org/react": "^2.4.6",
+    "@radix-ui/react-accordion": "^1.2.0",
+    "@refinedev/cli": "^2.16.37",
+    "@refinedev/core": "^4.54.0",
+    "@refinedev/inferencer": "^4.7.0",
+    "@refinedev/mui": "^5.20.0",
+    "@refinedev/react-hook-form": "^4.9.0",
+    "@refinedev/react-router-v6": "^4.6.0",
+    "@refinedev/simple-rest": "^5.0.8",
+    "apexcharts": "^3.36.3",
+    "axios": "^1.6.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "cross-env": "^7.0.3",
+    "framer-motion": "^11.3.23",
+    "lucide-react": "^0.427.0",
+    "path": "^0.12.7",
+    "react": "^18.3.1",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.43.5",
+    "react-router-dom": "^6.8.1",
+    "shadcn": "^1.0.0",
+    "tailwind-merge": "^2.5.0",
+    "tailwindcss": "^3.4.9",
+    "tailwindcss-animate": "^1.0.7",
+    "web-vitals": "^1.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^14.1.1",
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.19.44",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.0",
+    "vite": "^5.4.0"
+  }
+}
