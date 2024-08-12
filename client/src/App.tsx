@@ -91,7 +91,7 @@ function App() {
 
       return {
         success: true,
-        redirectTo: "/login",
+        redirectTo: "/",
       };
     },
     onError: async (error) => {
@@ -119,7 +119,7 @@ function App() {
           name: "Not authenticated",
         },
         logout: true,
-        redirectTo: "/login",
+        redirectTo: "/",
       };
     },
     getPermissions: async () => null,
