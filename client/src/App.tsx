@@ -142,7 +142,7 @@ console.log(import.meta.env.VITE_GOOGLE_CLIENT_ID);
       <GlobalStyles styles={{ html: { WebkitFontSmoothing: "auto" } }} />
       <RefineSnackbarProvider>
         <Refine
-          dataProvider={dataProvider("http://localhost:8080/api/v1")}
+          dataProvider={dataProvider("https://the-desk-server.vercel.app/api/v1")}
           notificationProvider={useNotificationProvider}
           ReadyPage={ReadyPage}
           catchAll={<ErrorComponent />}
